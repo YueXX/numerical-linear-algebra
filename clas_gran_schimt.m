@@ -1,4 +1,4 @@
-%function[q]=clas_gran_schimt(A)
+function[q]=clas_gran_schimt(A)
 %Classical Gran_schimt proces, 
 %lots of rounding error when rank(A) is small
 
@@ -25,4 +25,4 @@ for i=1:n
 end
 
 
-%end
+end
