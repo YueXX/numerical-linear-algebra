@@ -1,8 +1,9 @@
 function[q]=clas_gran_schimt(A)
 %Classical Gran_schimt proces, 
-%lots of rounding error when rank(A) is small
+%Input matrix A, output the q matrix of 
+%QR decomposition
 
-%A=[2 3 8; 5 6 7; 3 4 6 ];
+
 
 
 [m,n]=size(A);
