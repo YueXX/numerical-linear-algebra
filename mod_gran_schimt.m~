@@ -18,13 +18,13 @@ for j=1:i-1
     % the only difference with classical gran_schimt
     % process is that the innter loop have r loop in every
     % time
-    R(j,i)=dot(q(:,j),r);
+    R(i,j)=dot(q(:,j),r);
     r=r-dot(q(:,j),r)*q(:,j);
     
 end
 
 q(:,i)=r/norm(r);
-   R(i,i)=norm(r);
+    
     
 end
 
